@@ -326,7 +326,7 @@ class Footer extends StatelessWidget {
                                       ? features.length
                                       : inde == 1
                                           ? accounts.length
-                                          : aboutUs.length, (index) {
+                                          : aboutUs.lengt, (index) {
                                 final all = inde == 0
                                     ? features[index]
                                     : inde == 1
