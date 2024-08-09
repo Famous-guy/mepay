@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!--
+  <head>
+    <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
 
@@ -14,25 +14,48 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+    <base href="$FLUTTER_BASE_HREF" />
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <!-- <meta name="description" content="A new Flutter project.">
+ <meta name="description" content="Your website description.">
+  <meta name="keywords" content="flutter, web, example, meta tags"> -->
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="mepay">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Open Graph Meta Tags (used by Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="MePay" />
+    <meta property="og:description" content="Unlock Automatic Payments and Reminders" />
+    <meta
+      property="og:image"
+      content="icons/mobile_mockup.png"
+    />
+    <meta property="og:url" content="https://mepays.vercel.app/" />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Website Title" />
+    <meta name="twitter:description" content="Your website description" />
+    <meta
+      name="twitter:image"
+      content="https://yourwebsite.com/path/to/image.jpg"
+    />
 
-  <title>mepay</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+    <!-- Additional Meta Tags -->
+    <meta name="author" content="Eunice" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="mepay" />
+    <link rel="apple-touch-icon" href="mepay.svg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg" href="mepay.svg" />
+
+    <title>MePay</title>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <script src="flutter_bootstrap.js" async></script>
+  </body>
 </html>
