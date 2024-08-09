@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mepay/config/config.dart';
-import 'package:mepay/config/theme/font_family_theme_config.dart';
 
 class FontstyleThemeConfig {
   static TextStyle label = TextStyle(

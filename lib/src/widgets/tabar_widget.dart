@@ -48,7 +48,7 @@ class _TabarWidgetState extends State<TabarWidget> {
             height: 29,
             width: 84,
           ),
-          SizedBox(
+          const SizedBox(
             width: 36,
           ), // Use SizedBox instead of 36.h
           Visibility(
@@ -78,7 +78,7 @@ class _TabarWidgetState extends State<TabarWidget> {
                                   ),
                                   onExit: (_) => _onHover(index, false),
                                   child: AnimatedContainer(
-                                    duration: Duration(
+                                    duration: const Duration(
                                       milliseconds: 200,
                                     ),
                                     curve: Easing.linear,
@@ -102,7 +102,7 @@ class _TabarWidgetState extends State<TabarWidget> {
                               ),
                               Visibility(
                                 visible: index == 1,
-                                child: SizedBox(
+                                child: const SizedBox(
                                   width: 10.92,
                                 ),
                               ),

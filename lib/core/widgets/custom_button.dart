@@ -45,12 +45,12 @@ class _CustomButtonState extends State<CustomButton> {
         ),
         onExit: (_) => _onHover(false),
         child: AnimatedContainer(
-          duration: Duration(
+          duration: const Duration(
             milliseconds: 200,
           ),
           curve: Easing.linear,
           padding: widget.padding ??
-              EdgeInsets.symmetric(
+              const EdgeInsets.symmetric(
                 horizontal: 17,
                 vertical: 15,
               ),

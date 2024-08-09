@@ -51,7 +51,7 @@ class SectionSix extends StatelessWidget {
                 Center(
                   child: Container(
                     width: 327,
-                    margin: EdgeInsets.only(
+                    margin: const EdgeInsets.only(
                       bottom: 103,
                     ),
                     child: Column(
@@ -79,7 +79,7 @@ class SectionSix extends StatelessWidget {
                                 ),
                                 child: CustomButton(
                                   showImage: true,
-                                  padding: EdgeInsets.symmetric(
+                                  padding: const EdgeInsets.symmetric(
                                     vertical: 14.95,
                                     horizontal: 15.5,
                                   ),
@@ -101,11 +101,11 @@ class SectionSix extends StatelessWidget {
                         ),
                         38.v,
                         AnimatedContainer(
-                          duration: Duration(
+                          duration: const Duration(
                             milliseconds: 200,
                           ),
                           curve: Curves.linear,
-                          padding: EdgeInsets.all(
+                          padding: const EdgeInsets.all(
                             25,
                           ),
                           decoration: BoxDecoration(
@@ -166,7 +166,7 @@ class SectionSix extends StatelessWidget {
                 Center(
                   child: Container(
                     width: 530,
-                    margin: EdgeInsets.only(
+                    margin: const EdgeInsets.only(
                       bottom: 131,
                     ),
                     child: Column(
@@ -197,7 +197,7 @@ class SectionSix extends StatelessWidget {
                                 ),
                                 child: CustomButton(
                                   showImage: true,
-                                  padding: EdgeInsets.symmetric(
+                                  padding: const EdgeInsets.symmetric(
                                     vertical: 14.95,
                                     horizontal: 15.5,
                                   ),
@@ -219,11 +219,11 @@ class SectionSix extends StatelessWidget {
                         ),
                         38.v,
                         AnimatedContainer(
-                          duration: Duration(
+                          duration: const Duration(
                             milliseconds: 200,
                           ),
                           curve: Curves.linear,
-                          padding: EdgeInsets.all(
+                          padding: const EdgeInsets.all(
                             25,
                           ),
                           decoration: BoxDecoration(

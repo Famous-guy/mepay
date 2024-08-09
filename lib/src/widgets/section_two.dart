@@ -58,7 +58,7 @@ class SectionTwo extends StatelessWidget {
                               style: FontstyleThemeConfig.bold3,
                             ),
                           ],
-                          style: TextStyle(
+                          style: const TextStyle(
                             height: 1.2,
                           ),
                         ),
@@ -127,7 +127,7 @@ class SectionTwo extends StatelessWidget {
                                 style: FontstyleThemeConfig.titleBlack3,
                               ),
                             ],
-                            style: TextStyle(
+                            style: const TextStyle(
                               height: 1.2,
                             ),
                           ),

@@ -76,12 +76,12 @@ class HeroSection extends StatelessWidget {
                                       : FontstyleThemeConfig.titleBlue,
                                 ),
                               ],
-                              style: TextStyle(
+                              style: const TextStyle(
                                 height: 1.2,
                               ),
                             ),
                           ),
-                          SizedBox(height: 24),
+                          const SizedBox(height: 24),
                           SizedBox(
                             width: 370,
                             child: Text(
@@ -92,7 +92,7 @@ class HeroSection extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(height: 24),
+                    const SizedBox(height: 24),
                     Wrap(
                       runAlignment: WrapAlignment.start,
                       crossAxisAlignment: WrapCrossAlignment.start,
@@ -108,7 +108,7 @@ class HeroSection extends StatelessWidget {
                               SvgPicture.string(
                                 SvgAssetsConfig.check,
                               ),
-                              SizedBox(width: 8.7),
+                              const SizedBox(width: 8.7),
                               Text(
                                 weDo,
                                 style: FontstyleThemeConfig.regular,
@@ -118,7 +118,7 @@ class HeroSection extends StatelessWidget {
                         },
                       ),
                     ),
-                    SizedBox(height: 36),
+                    const SizedBox(height: 36),
                     Column(
                       children: List.generate(
                         button.length,
@@ -144,14 +144,14 @@ class HeroSection extends StatelessWidget {
                         },
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 53,
                     ),
                     Text(
                       'Investors and Partners',
                       style: FontstyleThemeConfig.label,
                     ),
-                    SizedBox(height: 16),
+                    const SizedBox(height: 16),
                     Wrap(
                       spacing: 48.0, // Space between items
                       runSpacing: 10.0, // Space between lines
@@ -200,12 +200,12 @@ class HeroSection extends StatelessWidget {
                                     style: FontstyleThemeConfig.titleBlue,
                                   ),
                                 ],
-                                style: TextStyle(
+                                style: const TextStyle(
                                   height: 1.2,
                                 ),
                               ),
                             ),
-                            SizedBox(height: 24),
+                            const SizedBox(height: 24),
                             SizedBox(
                               width: 370,
                               child: Text(
@@ -216,7 +216,7 @@ class HeroSection extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(height: 24),
+                      const SizedBox(height: 24),
                       Wrap(
                         spacing: 15.0, // Space between items
                         runSpacing: 10.0, // Space between lines
@@ -230,7 +230,7 @@ class HeroSection extends StatelessWidget {
                                 SvgPicture.string(
                                   SvgAssetsConfig.check,
                                 ),
-                                SizedBox(width: 8.7),
+                                const SizedBox(width: 8.7),
                                 Text(
                                   weDo,
                                   style: FontstyleThemeConfig.regular,
@@ -240,7 +240,7 @@ class HeroSection extends StatelessWidget {
                           },
                         ),
                       ),
-                      SizedBox(height: 36),
+                      const SizedBox(height: 36),
                       Row(
                         children: List.generate(
                           button.length,
@@ -266,12 +266,12 @@ class HeroSection extends StatelessWidget {
                           },
                         ),
                       ),
-                      SizedBox(height: 95),
+                      const SizedBox(height: 95),
                       Text(
                         'Investors and Partners',
                         style: FontstyleThemeConfig.label,
                       ),
-                      SizedBox(height: 16),
+                      const SizedBox(height: 16),
                       Wrap(
                         spacing: 48.0, // Space between items
                         runSpacing: 10.0, // Space between lines

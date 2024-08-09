@@ -42,7 +42,7 @@ class SectionThree extends StatelessWidget {
                 String key = brief.keys.elementAt(index);
                 String value = brief.values.elementAt(index);
                 return Container(
-                  padding: EdgeInsets.all(
+                  padding: const EdgeInsets.all(
                     36,
                   ),
                   width: 360,

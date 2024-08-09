@@ -19,7 +19,7 @@ class SectionFive extends StatelessWidget {
         top: 150,
         bottom: 20,
       ),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.transparent,
       ),
       child: Column(
@@ -45,7 +45,7 @@ class SectionFive extends StatelessWidget {
                         15,
                       ),
                     ),
-                    padding: EdgeInsets.all(
+                    padding: const EdgeInsets.all(
                       24,
                     ),
                     child: SizedBox(
@@ -87,7 +87,7 @@ class SectionFive extends StatelessWidget {
                                 ),
                                 child: CircleAvatar(
                                   backgroundColor: ColorsThemeConfig.bluegray30,
-                                  backgroundImage: AssetImage(
+                                  backgroundImage: const AssetImage(
                                     'assets/images/png/avartar.png',
                                   ),
                                 ),

@@ -38,7 +38,7 @@ class Footer extends StatelessWidget {
             right: 0,
             left: 0,
             child: Container(
-              padding: EdgeInsets.only(
+              padding: const EdgeInsets.only(
                 left: 100.0,
                 right: 100.0,
                 top: 150.0,
@@ -119,7 +119,7 @@ class Footer extends StatelessWidget {
                                       ),
                                       child: CustomButton(
                                         showImage: true,
-                                        padding: EdgeInsets.symmetric(
+                                        padding: const EdgeInsets.symmetric(
                                           vertical: 14.95,
                                           horizontal: 15.5,
                                         ),
@@ -233,7 +233,7 @@ class Footer extends StatelessWidget {
                                     ),
                                     child: CustomButton(
                                       showImage: true,
-                                      padding: EdgeInsets.symmetric(
+                                      padding: const EdgeInsets.symmetric(
                                         vertical: 14.95,
                                         horizontal: 15.5,
                                       ),
@@ -369,7 +369,7 @@ class Footer extends StatelessWidget {
                                   : 950,
                   left: 24,
                   child: Container(
-                    padding: EdgeInsets.symmetric(
+                    padding: const EdgeInsets.symmetric(
                       horizontal: 24,
                       vertical: 44.5,
                     ),
@@ -390,7 +390,7 @@ class Footer extends StatelessWidget {
                           visible: size.width <= 538,
                           child: TextFormField(
                             decoration: InputDecoration(
-                              contentPadding: EdgeInsets.symmetric(
+                              contentPadding: const EdgeInsets.symmetric(
                                 horizontal: 16,
                                 vertical: 23.5,
                               ),
@@ -403,7 +403,7 @@ class Footer extends StatelessWidget {
                                   width: 24,
                                 ),
                               ),
-                              prefixIconConstraints: BoxConstraints(
+                              prefixIconConstraints: const BoxConstraints(
                                 minWidth: 40,
                                 minHeight: 40,
                               ),
@@ -411,13 +411,13 @@ class Footer extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(
                                   19,
                                 ),
-                                borderSide: BorderSide(
+                                borderSide: const BorderSide(
                                   color: Colors.white,
                                 ),
                               ),
                               focusedBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(19),
-                                borderSide: BorderSide(
+                                borderSide: const BorderSide(
                                   color: Colors.white,
                                 ),
                               ),
@@ -435,7 +435,7 @@ class Footer extends StatelessWidget {
                             children: [
                               TextFormField(
                                 decoration: InputDecoration(
-                                  contentPadding: EdgeInsets.symmetric(
+                                  contentPadding: const EdgeInsets.symmetric(
                                     horizontal: 16,
                                     vertical: 23.5,
                                   ),
@@ -448,7 +448,7 @@ class Footer extends StatelessWidget {
                                       width: 24,
                                     ),
                                   ),
-                                  prefixIconConstraints: BoxConstraints(
+                                  prefixIconConstraints: const BoxConstraints(
                                     minWidth: 40,
                                     minHeight: 40,
                                   ),
@@ -456,13 +456,13 @@ class Footer extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(
                                       19,
                                     ),
-                                    borderSide: BorderSide(
+                                    borderSide: const BorderSide(
                                       color: Colors.white,
                                     ),
                                   ),
                                   focusedBorder: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(19),
-                                    borderSide: BorderSide(
+                                    borderSide: const BorderSide(
                                       color: Colors.white,
                                     ),
                                   ),
@@ -482,11 +482,11 @@ class Footer extends StatelessWidget {
                                   label: 'Subscribe',
                                   showImage: false,
                                   bgColor: ColorsThemeConfig.msb,
-                                  textStyle: TextStyle(
+                                  textStyle: const TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                   ),
-                                  padding: EdgeInsets.symmetric(
+                                  padding: const EdgeInsets.symmetric(
                                     vertical: 5.0,
                                     horizontal: 20.0,
                                   ),
@@ -504,11 +504,11 @@ class Footer extends StatelessWidget {
                             label: 'Subscribe',
                             showImage: false,
                             bgColor: ColorsThemeConfig.dsb900,
-                            textStyle: TextStyle(
+                            textStyle: const TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
                             ),
-                            padding: EdgeInsets.symmetric(
+                            padding: const EdgeInsets.symmetric(
                               vertical: 14.0,
                               horizontal: 20.0,
                             ),
@@ -545,7 +545,7 @@ class Footer extends StatelessWidget {
                           children: [
                             TextFormField(
                               decoration: InputDecoration(
-                                contentPadding: EdgeInsets.symmetric(
+                                contentPadding: const EdgeInsets.symmetric(
                                   horizontal: 16,
                                   vertical: 23.5,
                                 ),
@@ -558,7 +558,7 @@ class Footer extends StatelessWidget {
                                     width: 24,
                                   ),
                                 ),
-                                prefixIconConstraints: BoxConstraints(
+                                prefixIconConstraints: const BoxConstraints(
                                   minWidth: 40,
                                   minHeight: 40,
                                 ),
@@ -566,13 +566,13 @@ class Footer extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(
                                     19,
                                   ),
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.white,
                                   ),
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(19),
-                                  borderSide: BorderSide(
+                                  borderSide: const BorderSide(
                                     color: Colors.white,
                                   ),
                                 ),
@@ -592,11 +592,11 @@ class Footer extends StatelessWidget {
                                 label: 'Subscribe',
                                 showImage: false,
                                 bgColor: ColorsThemeConfig.msb,
-                                textStyle: TextStyle(
+                                textStyle: const TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                 ),
-                                padding: EdgeInsets.symmetric(
+                                padding: const EdgeInsets.symmetric(
                                   vertical: 5.0,
                                   horizontal: 20.0,
                                 ),

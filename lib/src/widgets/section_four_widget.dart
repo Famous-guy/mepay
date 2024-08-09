@@ -38,8 +38,8 @@ class _SectionFourState extends State<SectionFour>
       widget.image.length,
       (index) {
         final beginOffset = index.isEven
-            ? Offset(-1.5, 0)
-            : Offset(1.5, 0); // Left to right or right to left
+            ? const Offset(-1.5, 0)
+            : const Offset(1.5, 0); // Left to right or right to left
         return Tween<Offset>(
           begin: beginOffset,
           end: Offset.zero,
@@ -126,14 +126,14 @@ class _SectionFourState extends State<SectionFour>
                                   style: FontstyleThemeConfig.bold2,
                                   // style: Theme.of(context).textTheme.headline6,
                                 ),
-                                SizedBox(height: 16),
+                                const SizedBox(height: 16),
                                 Text(
                                   value,
                                   style: FontstyleThemeConfig.label2,
                                   // style: Theme.of(context).textTheme.bodyText2,
                                 ),
-                                SizedBox(height: 25.5),
-                                Row(
+                                const SizedBox(height: 25.5),
+                                const Row(
                                   children: [
                                     Text(
                                       'Learn More',
@@ -163,7 +163,7 @@ class _SectionFourState extends State<SectionFour>
                                 ),
                               ),
                             ),
-                          if (isLeftAligned) SizedBox(width: 50),
+                          if (isLeftAligned) const SizedBox(width: 50),
                           Flexible(
                             child: SizedBox(
                               width: 384,
@@ -176,15 +176,15 @@ class _SectionFourState extends State<SectionFour>
                                     //     Theme.of(context).textTheme.headline6,
                                     style: FontstyleThemeConfig.bold2,
                                   ),
-                                  SizedBox(height: 16),
+                                  const SizedBox(height: 16),
                                   Text(
                                     value,
                                     style: FontstyleThemeConfig.label2,
                                     // style:
                                     //     Theme.of(context).textTheme.bodyText2,
                                   ),
-                                  SizedBox(height: 52),
-                                  Row(
+                                  const SizedBox(height: 52),
+                                  const Row(
                                     children: [
                                       Text(
                                         'Learn More',
@@ -199,7 +199,7 @@ class _SectionFourState extends State<SectionFour>
                               ),
                             ),
                           ),
-                          if (!isLeftAligned) SizedBox(width: 50),
+                          if (!isLeftAligned) const SizedBox(width: 50),
                           if (!isLeftAligned)
                             SlideTransition(
                               position: _animations[index],

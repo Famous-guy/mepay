@@ -24,6 +24,7 @@ extension NavigationExtension on BuildContext {
       ),
     );
   }
+
   Future nextPageAndReplaceUntil(Widget page) {
     return Navigator.pushAndRemoveUntil(
       this,
